@@ -1,0 +1,47 @@
+AuthApis ------  login
+                 signup
+                 forgotpass
+
+DoctorApis ----  alldoctors
+                 individualdoctor
+                 count of doctors
+                 upload doctor 
+                 edit doctor details
+                 leave table 
+
+Appointmntapis -  allappointments
+                  appoitntests for that DoctorApis
+                  allapointments for that user
+                  from today this tym to all appointments for individual DoctorApis
+                  cancel appointment
+                  payed apt fee updates in appoitmet table
+                  book appintment stores in allapointments
+                  while booking check if that date is available api,
+                  count of appointments
+                  count of patienmts with unique names
+                  upcoming all apointts starting from exact tym
+                  today appointments counts (old patients , newpatients)
+                  today appointmenst for that doctor,
+                  appointments on that particular date,
+                  appointments for that particula   r date gives between dates
+                  all patients for that individual doctor
+
+
+
+userdetailsApis -  getuserdetails gives all info about user
+               -  details for individual user
+               -  update user details
+
+
+
+MainPortal uses -- alldoctors , individualdoctor , from today this tym to all appointments for individual DoctorApis
+                   allapointments for that user , details for individual user ,cancel apt, update user details,
+                   payed apt fee updates in appoitmet table,book appintment stores in allapointments
+                   while booking check if that date is available api
+
+AdminPortal uses - alldoctors, count of doctors , count of appointments ,count of patienmts with unique names
+                   upload doctor , upcoming all apointts starting from exact tym
+
+DoctorPortal uses - today appointments counts (old patients , newpatients) ,today appointmenst for that doctor
+                    appointments on that particular date , appointments for that particular date gives between dates,
+                    all patients for that individual doctor , edit doctor details
